@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+    
+</head>
+<body>
+    <h1 id="title">your favorite painters top</h1>
+    <p
+    id="description">We would like to know who are your favorite painters from the list below </p>
+    <form id="survey-form">
+        <label id="name-label">Name:</label> 
+        <input type="text" name="name" id="name" required placeholder="First name"><br>
+        <label id="email-label">Email:</label> 
+        <input type="email" name="name" id="email" required placeholder=" Account email:"><br>
+        <label id="number-label">Number:</label> 
+        <input type="number" name="name" id="number" min="0" max="9999" required placeholder="Id:"><br>
+
+        <h2>Rate your painters!</h2>
+        <select name="painters" id="dropdown"> 
+            <option value="leonardo da Vinci">Leonardo da Vinci</option>
+            <option value="frida kahlo">Frida Kahlo</option>
+            <option value="michelangelo">Michelangelo</option>
+            <option value="artemisia gentileschi">Artemisia Gentileschi</option>
+            <option value="pablo picasso">Pablo Picasso</option>
+            <option value="tamara de lempicka">Tamara de Lempicka</option>
+            <option value="claude monet">Claude Monet</option>
+            <option value="adélaïde labille-guiard">Adélaïde Labille-Guiard</option>
+            <option value="honoré daumier">Honoré Daumier</option>
+            <option value="paul cezanne">Paul Cezanne</option>
+            <option value="judith leyster">Judith Leyster</option>
+            <option value="joseph mallord william turner">Joseph Mallord William Turner</option>
+            <option value="mary cassatt">Mary Cassatt</option>
+            <option value="vincent van gogh">Vincent van Gogh</option>
+            <option value="rosa bonheur">Rosa Bonheur</option>
+            <option value="gustav courbet">Gustav Courbet</option>
+            <option value="sandro botticelli">Sandro Botticelli</option>
+            <option value="johannes vermeer">Johannes Vermeer</option>
+            <option value="georgia o'keeffe">Georgia O'Keeffe</option>
+            <option value="rembrandt">Rembrandt</option>
+            <option value="marie gabrielle capet">Marie Gabrielle Capet</option>
+            <option value="diego velazquez">Diego Velazquez</option>
+            <option value="alfons mucha">Alfons Mucha</option>
+            <option value="salvador dali">Salvador Dali</option>
+            <option value="caravaggio">Caravaggio</option>
+            <option value="edvard munch">Edvard Munch</option>
+            <option value="william adolphe bouguereau">William Adolphe Bouguereau</option>
+            <option value="marie louise elisabeth vigée lebrun">Marie Louise Élisabeth Vigée Lebrun</option>
+            <option value="leon spilliaert">Leon Spilliaert</option>
+            
+            <option value="other">Other</option>
+            </select>
+            <br><br>
+        
+            <label id="gender-label">Gender:</label>
+            <input type="radio" class="radio-inline" name="gender" value="male"> Male<br>
+            <input type="radio" class="radio-inline" name="gender" value="female"> Female<br>
+            <input type="radio" class="radio-inline" name="gender" value="other"> Other<br>
+            
+            <br>
+            <label id="artist-feature">This artist for you is a...</label><br>
+            <input type="checkbox" id="feature1" name="vehicle1" value="Bike">
+            <label for="vehicle1">Genius</label>
+            <input type="checkbox" id="feature2" name="vehicle2" value="Car">
+            <label for="vehicle2">Rebel </label>
+            <input type="checkbox" id="feature3" name="vehicle3" value="Boat">
+            <label for="vehicle3">Lazy bum</label><br><br>
+            
+            <label id="additional-comments-label">Leave us a comment</label>
+            <textarea placeholder="Additional comments"></textarea><br>
+        <input type="submit" id="submit">
+    </form>
+    <script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
